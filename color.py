@@ -14,9 +14,9 @@ time.sleep(0.1)
 
 camera.capture(rawCapture, format="bgr")
 image = rawCapture.array
-# output = image.copy()
-# gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
-# 
+output = image.copy()
+gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+
 # circles = cv2.HoughCircles(gray, cv2.HOUGH_GRADIENT, 1.2, 100)
 # 
 # if circles is not None:
