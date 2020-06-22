@@ -7,13 +7,13 @@ import numpy as np
 import cv2
 
 
-# camera = PiCamera()
-# rawCapture = PiRGBArray(camera)
-# 
-# time.sleep(0.1)
-# 
-# camera.capture(rawCapture, format="bgr")
-# image = rawCapture.array
+camera = PiCamera()
+rawCapture = PiRGBArray(camera)
+
+time.sleep(0.1)
+
+camera.capture(rawCapture, format="bgr")
+image = rawCapture.array
 # output = image.copy()
 # gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 # 
